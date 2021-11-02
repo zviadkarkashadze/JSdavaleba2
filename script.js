@@ -29,4 +29,26 @@
 
 
 //3
+let user = {
+  firstname: 'giorgi',
+  lastname: 'saakadze',
+  age: 32,
+  isloggedin: true
+}
 
+
+
+//4
+function sum2(...parmtr) {
+  let numbersSum1 = 0;
+
+  for (let item of parmtr) {
+    if (item > 0){
+   numbersSum1 = item;
+   }
+  } 
+
+  console.log(numbersSum1);
+}
+
+sum2(2,5,11,30,100,8,11,4);
